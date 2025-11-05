@@ -1,0 +1,43 @@
+[2025-11-05T06:11:09.570+0000] {processor.py:186} INFO - Started process (PID=1981) to work on /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:11:09.571+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/hello_airflow.py for tasks to queue
+[2025-11-05T06:11:09.573+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:11:09.655+0000] {processor.py:925} INFO - DAG(s) 'five_task_dag_with_pyspark' retrieved from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:11:09.754+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.753+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.771+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.770+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.783+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.782+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.802+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.801+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.813+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.813+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.826+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.826+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.839+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.839+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:five_task_dag_with_pyspark
+[2025-11-05T06:11:09.840+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:11:09.850+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.850+0000] {dag.py:3262} INFO - Creating ORM DAG for five_task_dag_with_pyspark
+[2025-11-05T06:11:09.857+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:09.857+0000] {dag.py:4180} INFO - Setting next_dagrun for five_task_dag_with_pyspark to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:11:09.877+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/hello_airflow.py took 0.313 seconds
+[2025-11-05T06:12:24.974+0000] {processor.py:186} INFO - Started process (PID=2082) to work on /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:12:24.977+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/hello_airflow.py for tasks to queue
+[2025-11-05T06:12:24.979+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:24.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:12:25.037+0000] {processor.py:925} INFO - DAG(s) 'five_task_dag_with_pyspark' retrieved from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:12:25.048+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:25.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:12:25.064+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:25.064+0000] {dag.py:4180} INFO - Setting next_dagrun for five_task_dag_with_pyspark to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:12:25.093+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/hello_airflow.py took 0.123 seconds
+[2025-11-05T06:13:02.911+0000] {processor.py:186} INFO - Started process (PID=2129) to work on /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:02.912+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/hello_airflow.py for tasks to queue
+[2025-11-05T06:13:02.915+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:02.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:03.041+0000] {processor.py:925} INFO - DAG(s) 'five_task_dag_with_pyspark' retrieved from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:03.302+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:03.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:13:03.329+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:03.329+0000] {dag.py:4180} INFO - Setting next_dagrun for five_task_dag_with_pyspark to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:13:03.353+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/hello_airflow.py took 0.447 seconds
+[2025-11-05T06:13:36.032+0000] {processor.py:186} INFO - Started process (PID=2166) to work on /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:36.035+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/hello_airflow.py for tasks to queue
+[2025-11-05T06:13:36.037+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:36.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:36.096+0000] {processor.py:925} INFO - DAG(s) 'five_task_dag_with_pyspark' retrieved from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:13:36.110+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:36.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:13:36.128+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:36.128+0000] {dag.py:4180} INFO - Setting next_dagrun for five_task_dag_with_pyspark to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:13:36.258+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/hello_airflow.py took 0.231 seconds
+[2025-11-05T06:14:39.114+0000] {processor.py:186} INFO - Started process (PID=2239) to work on /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:14:39.116+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/hello_airflow.py for tasks to queue
+[2025-11-05T06:14:39.118+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:39.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:14:39.318+0000] {processor.py:925} INFO - DAG(s) 'five_task_dag_with_pyspark' retrieved from /home/dellsai/airflow_project/dags/hello_airflow.py
+[2025-11-05T06:14:39.384+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:39.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:14:39.396+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:39.395+0000] {dag.py:4180} INFO - Setting next_dagrun for five_task_dag_with_pyspark to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:14:39.420+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/hello_airflow.py took 0.310 seconds

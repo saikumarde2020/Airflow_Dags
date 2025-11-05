@@ -1,0 +1,35 @@
+[2025-11-05T06:11:11.005+0000] {processor.py:186} INFO - Started process (PID=1982) to work on /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:11:11.006+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/spark.py for tasks to queue
+[2025-11-05T06:11:11.008+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:11.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:11:11.016+0000] {processor.py:925} INFO - DAG(s) 'sample_dag' retrieved from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:11:11.023+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:11.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:11:11.045+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:11:11.045+0000] {dag.py:4180} INFO - Setting next_dagrun for sample_dag to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:11:11.072+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/spark.py took 0.071 seconds
+[2025-11-05T06:12:26.218+0000] {processor.py:186} INFO - Started process (PID=2083) to work on /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:12:26.220+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/spark.py for tasks to queue
+[2025-11-05T06:12:26.222+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:26.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:12:26.229+0000] {processor.py:925} INFO - DAG(s) 'sample_dag' retrieved from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:12:26.295+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:26.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:12:26.308+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:12:26.308+0000] {dag.py:4180} INFO - Setting next_dagrun for sample_dag to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:12:26.332+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/spark.py took 0.118 seconds
+[2025-11-05T06:13:04.450+0000] {processor.py:186} INFO - Started process (PID=2130) to work on /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:13:04.453+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/spark.py for tasks to queue
+[2025-11-05T06:13:04.456+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:04.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:13:04.464+0000] {processor.py:925} INFO - DAG(s) 'sample_dag' retrieved from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:13:04.472+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:04.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:13:04.492+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:13:04.492+0000] {dag.py:4180} INFO - Setting next_dagrun for sample_dag to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:13:04.515+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/spark.py took 0.071 seconds
+[2025-11-05T06:14:07.591+0000] {processor.py:186} INFO - Started process (PID=2203) to work on /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:14:07.593+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/spark.py for tasks to queue
+[2025-11-05T06:14:07.595+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:07.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:14:07.603+0000] {processor.py:925} INFO - DAG(s) 'sample_dag' retrieved from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:14:07.672+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:07.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:14:07.687+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:14:07.687+0000] {dag.py:4180} INFO - Setting next_dagrun for sample_dag to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:14:07.713+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/spark.py took 0.128 seconds
+[2025-11-05T06:15:11.778+0000] {processor.py:186} INFO - Started process (PID=2282) to work on /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:15:11.782+0000] {processor.py:914} INFO - Processing file /home/dellsai/airflow_project/dags/spark.py for tasks to queue
+[2025-11-05T06:15:11.784+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:15:11.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:15:11.795+0000] {processor.py:925} INFO - DAG(s) 'sample_dag' retrieved from /home/dellsai/airflow_project/dags/spark.py
+[2025-11-05T06:15:11.805+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:15:11.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-05T06:15:11.823+0000] {logging_mixin.py:190} INFO - [2025-11-05T06:15:11.823+0000] {dag.py:4180} INFO - Setting next_dagrun for sample_dag to 2025-11-04 00:00:00+00:00, run_after=2025-11-05 00:00:00+00:00
+[2025-11-05T06:15:11.847+0000] {processor.py:208} INFO - Processing /home/dellsai/airflow_project/dags/spark.py took 0.074 seconds
