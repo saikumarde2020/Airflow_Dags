@@ -1,0 +1,18 @@
+# Virtual environment
+airflow_venv/
+venv/
+
+# Airflow generated files
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+logs/
+*.log
+*.pid
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
