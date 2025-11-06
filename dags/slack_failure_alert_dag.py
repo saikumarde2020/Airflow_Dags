@@ -5,7 +5,7 @@ from airflow.models import Variable
 import requests
 
 # --------------------------
-# Slack Webhook URL (replace with yours)
+# Slack Webhook URL (from Airflow Variable)
 # --------------------------
 SLACK_WEBHOOK_URL = Variable.get("slack_webhook_url")
 
@@ -41,7 +41,7 @@ def send_slack_alert(context):
 
     payload = {"text": message}
     try:
-        requests.post(SLACK_WEBHOOK_URL, json=payload)
+        requests.post(SLACK_WEBHOOK_URL, json=payload, timeout=10)
     except Exception as e:
         print("Error sending Slack alert:", e)
 
@@ -59,14 +59,16 @@ def task_3():
 
 # --------------------------
 # Define the DAG
+# Runs every day at 14:40 IST = 09:10 UTC  --> cron: "10 9 * * *"
 # --------------------------
 with DAG(
     dag_id="slack_failure_alert_dag",
     default_args=default_args,
     description="DAG that fails at task 3 and sends Slack alert",
-    start_date=datetime(2025, 1, 1),
-    schedule_interval=None,  # manual trigger
-    catchup=False,      tags=["slack", "alert", "demo"],
+    start_date=datetime(2025, 11, 1),          # keep in the past; Airflow schedules in UTC
+    schedule_interval="10 9 * * *",            # 09:10 UTC = 14:40 IST
+    catchup=False,
+    tags=["slack", "alert", "demo"],
 ) as dag:
 
     t1 = PythonOperator(
