@@ -50,11 +50,13 @@ def send_slack_failure_alert(context):
 # --------------------------
 def send_slack_success_alert(context):
     dag_id = context.get("task_instance").dag_id
+    task_id = context.get("task_instance").task_id
     execution_date = context.get("execution_date")
 
     message = (
         f":large_green_circle: *Airflow Success Alert!* \n"
         f"*DAG:* {dag_id}\n"
+        f"*Task:* {task_id}\n"
         f"*Execution Time:* {execution_date}\n"
         f"*Status:* Success ✅\n"
     )
@@ -74,8 +76,8 @@ def task_2():
     print("Task 2 completed successfully!")
 
 def task_3():
-    # Intentionally fail this task to test failure alert
-    raise Exception("Intentional failure in Task 3 to test Slack alert!")
+    # ✅ Now success instead of failure
+    print("Task 3 completed successfully! Triggering success alert!")
 
 # --------------------------
 # Define DAG
@@ -85,9 +87,9 @@ IST = pytz.timezone("Asia/Kolkata")
 with DAG(
     dag_id="slack_success_failure_alert_dag",
     default_args=default_args,
-    description="DAG with both success and failure Slack alerts",
+    description="DAG with Slack alerts for both success and failure",
     start_date=datetime(2025, 11, 6, tzinfo=IST),
-    schedule_interval="40 14 * * *",  # Runs every day at 14:40 IST
+    schedule_interval="40 14 * * *",  # Runs daily at 14:40 IST
     catchup=False,
     tags=["slack", "alert", "demo"],
 ) as dag:
@@ -108,7 +110,7 @@ with DAG(
         task_id="task_3",
         python_callable=task_3,
         on_failure_callback=send_slack_failure_alert,
-        on_success_callback=send_slack_success_alert,  # ✅ Success alert
+        on_success_callback=send_slack_success_alert,  # ✅ Trigger Slack alert on success
     )
 
     t1 >> t2 >> t3
